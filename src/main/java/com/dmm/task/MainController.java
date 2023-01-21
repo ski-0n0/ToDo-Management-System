@@ -91,8 +91,6 @@ public class MainController {
 		}
 
 		Tasks task = tasksRepository.getReferenceById(taskForm.getId());
-		
-		System.out.println(task.getDate());
 
 		model.addAttribute("task", task);
 
